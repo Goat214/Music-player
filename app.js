@@ -16,6 +16,7 @@ const music = [
 ];
 
 let curreentMusic = 0;
+audio.currentTime = 210;
 
 function changeMusic(index) {
   const title = music[index];
